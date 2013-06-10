@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-
-require File.join(File.dirname(__FILE__), *%w[.. lib slidedown])
+require "rubygems"
+require "slidedown"
 
 SlideDown.run!

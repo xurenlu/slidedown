@@ -1,9 +1,9 @@
 require 'rake'
-require 'spec/rake/spectask'
+#require 'spec/rake/spectask'
 
-Spec::Rake::SpecTask.new do |t|
-  t.spec_opts = ['--options', "spec/spec.opts"]
-end
+#Spec::Rake::SpecTask.new do |t|
+#  t.spec_opts = ['--options', "spec/spec.opts"]
+#end
 
 desc 'Default: run the specs.'
 task :default => :spec
